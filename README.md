@@ -8,7 +8,7 @@
 
 ## Instalación
 
-Para la comprender la instalación de Chisel, recomiendo visitar el sitio oficial:  [Chisel Sitio Oficial](https://www.chisel-lang.org/ "Chisel Sitio Oficial") <a href="https://www.chisel-lang.org/" target="_blank">Opens in new tab</a>
+Para la comprender la instalación de Chisel, recomiendo visitar el sitio oficial:  <a href="https://www.chisel-lang.org/" target="_blank">Sitio Oficial de Chisel tab</a>
 
 
 
