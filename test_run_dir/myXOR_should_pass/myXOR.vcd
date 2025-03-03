@@ -1,0 +1,58 @@
+$date
+2025-02-28T00:56+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module myXOR $end
+ $var wire 1 ! printf $end
+ $var wire 1 " io_y $end
+ $var wire 1 # io_result $end
+ $var wire 1 $ clock $end
+ $var wire 1 % io_x $end
+ $var wire 1 & printf_1 $end
+ $var wire 1 ' reset $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+$end
+#0
+1'
+#1
+1$
+#6
+0$
+0'
+#11
+1$
+#16
+1"
+1#
+0$
+#21
+1$
+#26
+0"
+0$
+1%
+#31
+1$
+#36
+1"
+0#
+0$
+#41
+1$
+#46
+0$
