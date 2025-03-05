@@ -21,13 +21,23 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
    
    `curl -O -L https://github.com/chipsalliance/chisel/releases/latest/download/chisel-example.scala`
 
-3. 
+3. Usar Scala CLI para compilar y ejecutar el ejemplo:
+
+   `scala-cli chisel-example.scala`
 
 4. Verificar la versión de *Java Development Kit* (JDK)
 
      `java -version`
 
-   Scala se ejecuta sobre la Máquina Virtual de Java (JVM) y Chisel requiere una versión de Java 8 o superior. Sin embargo, Scala CLI requiere Java 17 o superior. Si no se cumple con este requisito, Scala CLI descargará la    versión 17, de lo contrario, siga los siguientes pasos:
+   Scala se ejecuta sobre la Máquina Virtual de Java (JVM) y Chisel requiere una versión de Java 8 o superior. Sin embargo, Scala CLI requiere Java 17 o superior. Si no se cumple con este requisito, Scala CLI descargará la    versión 17, de lo contrario, siga los pasos:
+
+     ```
+      sudo apt install -y wget gpg apt-transport-https
+      sudo wget -qO - https://packages.adoptium.net/artifactory/api/gpg/key/public | gpg --dearmor | tee /etc/apt/trusted.gpg.d/adoptium.gpg > /dev/null
+      sudo echo "deb https://packages.adoptium.net/artifactory/deb $(awk -F= '/^VERSION_CODENAME/{print$2}' /etc/os-release) main" | tee /etc/apt/sources.list.d/adoptium.list
+      sudo apt update
+      sudo apt install temurin-17-jdk
+    ```
 
 
 Para la comprender la instalación de Chisel, recomiendo visitar el sitio oficial: [Sitio Oficial de Chisel](https://www.chisel-lang.org)
