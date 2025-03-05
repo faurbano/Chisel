@@ -17,9 +17,13 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
       sudo apt update
       sudo apt install scala-cli
    ``` 
-2. 
+2. Descargar el ejemplo de Chisel en Scala CLI:
+   
+   `curl -O -L https://github.com/chipsalliance/chisel/releases/latest/download/chisel-example.scala`
 
-3. Verificar la versión de *Java Development Kit* (JDK)
+3. 
+
+4. Verificar la versión de *Java Development Kit* (JDK)
 
      `java -version`
 
