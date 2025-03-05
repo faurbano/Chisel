@@ -17,9 +17,14 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
       sudo apt update
       sudo apt install scala-cli
    ``` 
-2. Verificar la versión de *Java Development Kit* (JDK)
+2. 
+
+3. Verificar la versión de *Java Development Kit* (JDK)
 
      `java -version`
+
+   Scala se ejecuta sobre la Máquina Virtual de Java (JVM) y Chisel requiere una versión de Java 8 o superior. Sin embargo, Scala CLI requiere Java 17 o superior. Si no se cumple con este requisito, Scala CLI descargará la    versión 17, de lo contrario, siga los siguientes pasos:
+
 
 Para la comprender la instalación de Chisel, recomiendo visitar el sitio oficial: [Sitio Oficial de Chisel](https://www.chisel-lang.org)
 
