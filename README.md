@@ -39,12 +39,17 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
       sudo apt install temurin-17-jdk
     ```
 
-5. Se requiere de una herramienta de compilación, personalmente uso SBT (Scala Build Tool):
+5. Se requiere de una herramienta de compilación, personalmente uso SBT (Scala Build Tool). Revisar la versión y cambiar si es necesario:
 
    ```
       curl -s -L https://github.com/sbt/sbt/releases/download/v1.9.7/sbt-1.9.7.tgz | tar xvz
       sudo mv sbt/bin/sbt /usr/local/bin/
    ```
+
+6. Para simulación se requiere Verilator. Usualmente las distribuciones de Linux lo traen incluido, si no es el caso, instalar:
+
+   `sudo apt install -y verilator`
+
 
 
 Para la comprender la instalación de Chisel, recomiendo visitar el sitio oficial: [Sitio Oficial de Chisel](https://www.chisel-lang.org)
