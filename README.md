@@ -66,7 +66,7 @@ Para más información sobre Chisel en [Sitio Oficial][1].
 En la Tabla 1, se puede observar el comportamiento de la compuerta XOR.
 
 | X | Y | result |
-|---|---|--------|
+|---|---|:------:|
 | 0 | 0 |   0    |
 | 0 | 1 |   1    |
 | 1 | 0 |   1    |
