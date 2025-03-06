@@ -55,8 +55,13 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
 
 Para más información sobre Chisel en [Sitio Oficial][1].
 
+<p><a href="https://www.chisel-lang.org/"> Descargar Chisel </a></p>
+
 ## Compuerta Lógica XOR
+
+<p align='justify'> La compuerta XOR, también conocida como OR Exclusiva, se representa como en la Figura 1. 
 <p align='center'> <img src="https://github.com/faurbano/Chisel/blob/main/images/myXOR.png"; alt='Compuerta XOR'/><!p>
+<p align='center'> Figura 1. Compuerta XOR<!p>
 
 Referencias
 
