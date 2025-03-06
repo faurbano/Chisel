@@ -62,6 +62,7 @@ Para más información sobre Chisel en [Sitio Oficial][1].
 <p align='justify'> La compuerta XOR, también conocida como OR Exclusiva, se representa como en la Figura 1. Las entradas <code>X</code> y <code>Y</code>, y la salida <code>result</code>, son de un bit.<!p> 
 
 ![Compuerta XOR](https://github.com/faurbano/Chisel/blob/main/images/myXOR.png)
+
 Figura 1. Compuerta XOR.
 
 En la Tabla 1, se puede observar el comportamiento de la compuerta XOR.
