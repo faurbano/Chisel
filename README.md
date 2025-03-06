@@ -76,6 +76,10 @@ En la Tabla 1, se puede observar el comportamiento de la compuerta XOR.
 
 Tabla 1. Comportamiento de la XOR.
 
+## Estructura de Chisel
+
+
+
 Referencias
 
 [1]: https://www.chisel-lang.org "Sitio Oficial"
