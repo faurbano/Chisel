@@ -71,6 +71,7 @@ En la Tabla 1, se puede observar el comportamiento de la compuerta XOR.
 | 0 | 1 |   1    |
 | 1 | 0 |   1    |
 | 1 | 1 |   0    |
+
 Tabla 1. Comportamiento de la XOR.
 
 Referencias
