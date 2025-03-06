@@ -56,9 +56,7 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
 Para más información sobre Chisel en [Sitio Oficial][1].
 
 ## Compuerta Lógica XOR
-<p align='center'> <img src="https://github.com/faurbano/Chisel/blob/main/images/myXOR.png" />
-![Compuerta XOR](https://github.com/faurbano/Chisel/blob/main/images/myXOR.png?raw=true)
-<!p>
+<p align='center'> <img src="https://github.com/faurbano/Chisel/blob/main/images/myXOR.png"; alt='Compuerta XOR'/><!p>
 
 Referencias
 
