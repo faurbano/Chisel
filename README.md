@@ -55,7 +55,7 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
 
 Para más información sobre Chisel en [Sitio Oficial][1].
 
-<p><a href="https://www.chisel-lang.org/"; target="_blank"> Descargar Chisel </a></p>
+# <p><a href="https://www.chisel-lang.org/"; target="_blank"> Descargar Chisel </a></p> #
 
 ## Compuerta Lógica XOR
 
