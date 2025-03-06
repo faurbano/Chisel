@@ -59,7 +59,7 @@ Para más información sobre Chisel en [Sitio Oficial][1].
 
 ## Compuerta Lógica XOR
 
-<p align='justify'> La compuerta XOR, también conocida como OR Exclusiva, se representa como en la Figura 1. 
+<p align='justify'> La compuerta XOR, también conocida como OR Exclusiva, se representa como en la Figura 1. Las entradas `X` y `X`, y la salida `result`, son de un bit. 
 <p align='center'> <img src="https://github.com/faurbano/Chisel/blob/main/images/myXOR.png"; alt='Compuerta XOR'/><!p>
 <p align='center'> Figura 1. Compuerta XOR<!p>
 
