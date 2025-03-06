@@ -29,7 +29,7 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
 
      `java -version`
 
-   Scala se ejecuta sobre la Máquina Virtual de Java (JVM) y Chisel requiere una versión de Java 8 o superior. Sin embargo, Scala CLI requiere Java 17 o superior. Si no se cumple con este requisito, Scala CLI descargará la    versión 17, de lo contrario, siga los pasos:
+   Scala se ejecuta sobre la Máquina Virtual de Java (JVM) y Chisel requiere una versión de Java 8 o superior. Sin embargo, Scala CLI requiere Java 17 o superior. Si no se cumple con este requisito, Scala CLI descargará la    versión 17, de lo contrario, seguir siguientes los pasos:
 
      ```
       sudo apt install -y wget gpg apt-transport-https
@@ -46,11 +46,11 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
       sudo mv sbt/bin/sbt /usr/local/bin/
    ```
 
-6. Para simulación se requiere Verilator. Usualmente las distribuciones de Linux lo traen incluido, si no es el caso, instalar:
+6. Para simulación se requiere Verilator. Usualmente las distribuciones de Linux lo traen incluido, si no es el caso, se debe instalar:
 
    `sudo apt install -y verilator`
 
-
+7. Otra herramienta importante es GTKWave, que permite la visualización de formas de onda para comprender mejor las simulaciones. Para instalar, se deben realizar los siguientes pasos: 
 
 Para la comprender la instalación de Chisel, recomiendo visitar el sitio oficial: [Sitio Oficial de Chisel](https://www.chisel-lang.org)
 
