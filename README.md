@@ -53,16 +53,14 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
 7. Otra herramienta importante es GTKWave, que permite la visualización de formas de onda para comprender mejor las simulaciones. Para instalar, se deben realizar los siguientes pasos: 
 
 
-Para más información sobre Chisel en [Sitio Oficial de Chisel][1]
+Para más información sobre Chisel en [Sitio Oficial][1].
 
-
-
-
+## Compuerta Lógica XOR
 
 ![Compuerta XOR](https://github.com/faurbano/Chisel/blob/main/images/myXOR.png?raw=true)
 
 
 Referencias
 
-[1]: https://www.chisel-lang.org "Sitio Oficial de Chisel"
+[1]: https://www.chisel-lang.org "Sitio Oficial"
 
