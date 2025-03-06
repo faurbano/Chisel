@@ -55,8 +55,6 @@ Para la instalación, se presentan los pasos en entorno Linux (También se puede
 
 Para más información sobre Chisel en [Sitio Oficial de Chisel][1]
 
-<a href="https://edulazaro.com/" target="_blank">Web de Eduardo Lázaro</a>
-
 
 
 
