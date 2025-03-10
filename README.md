@@ -96,6 +96,16 @@ class myXOR extends Module {
 
 ```
 
+## Simulación
+
+Para realizar simulaciones de los circuitos generados, se puede usar GTKWave, para instalarlo:
+
+```Linux
+   sudo apt-get update
+   sudo apt-get -y install gtkwave
+```
+
+
 Referencias
 
 [1]: https://www.chisel-lang.org "Sitio Oficial"
