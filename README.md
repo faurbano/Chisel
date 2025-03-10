@@ -81,6 +81,7 @@ Tabla 1. Comportamiento de la XOR.
 Vamos a revisar la estructura básica del lenguaje mediante el ejemplo de la compuerta XOR:
 
 ```Scala
+package intro
 
 import chisel3._
 import circt.stage.ChiselStage
@@ -95,6 +96,7 @@ class myXOR extends Module {
 }
 
 ```
+Como toda clase, `class myXOR` define las características y comportamiento de la entidad.
 
 ## Simulación
 
