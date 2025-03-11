@@ -96,6 +96,9 @@ class myXOR extends Module {
 }
 
 ```
+
+Recordemos que un `package`, para agrupar clases relacionadas. Las librerías `chisel3._`y `import circt.stage.ChiselStage` se usan para llamar a la librería de Chisel, y generar el hardware (Verilog).
+
 Como toda clase, `class myXOR` define las características y comportamiento de la entidad.
 
 ## Simulación
