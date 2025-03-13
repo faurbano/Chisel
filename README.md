@@ -97,9 +97,23 @@ class myXOR extends Module {
 
 ```
 
-Recordemos que un `package`, para agrupar clases relacionadas. Las librerías `chisel3._`y `import circt.stage.ChiselStage` se usan para llamar a la librería de Chisel, y generar el hardware (Verilog) respectivamente.
+Recordemos que un `package`, para agrupar clases relacionadas. La librería `chisel3._`, se encarga de importar todas las instrucciones disponibles para la elaboración de los circuitos digitales.
 
-Como toda clase, `class myXOR` define las características y comportamiento de la entidad. La variable io (inmutable), se define como la entidad, donde se describen las entradas tipo Bool, ya que solo tienen dos posibles valores. En este caso `X` y `Y`; y la salida `result`. 
+Como toda clase, `class myXOR` define las características y comportamiento de la entidad. La variable io (inmutable), se define como la entidad, donde se describen las entradas tipo Bool, ya que solo tienen dos posibles valores. En este caso `X` y `Y`; y la salida `result`. Posteriormente se usa el operador `^`, que es el que realizar la operación lógica XOR.
+
+La librería `circt.stage.ChiselStage` es la encargada de las instrucciones para generar el hardware (Verilog).
+
+```Scala
+   object Main extends App {
+   println(getVerilogString(new myXOR()))
+   println("Hardware generated")
+   emitVerilog(new myXOR(), Array("--target-dir", "generated"))
+   }
+```
+
+La sintaxis `getVerilogString, permite imprimir en pantalla, el código Verilog generado; y `emitVerilog(new myXOR(), Array("--target-dir", "generated"))`, sintetiza el archivo y con `Array`, permite configurar en que directorio se almacenará el archivo generado.
+
+Para generar el hardware, se puede hacer mediante la instrucción `sbt run`, que ejecutará todos los proyectos disponibles. Si deseo, solo ejecutar el proyecto actual, o sea myXOR, puedo hacerlo mediante `sbt 'runMain intro.Main'`, o ejecutar el Makefile que he diseñado, `make run_myXOR`.
 
 ## Simulación
 
