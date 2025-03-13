@@ -111,7 +111,7 @@ La librería `circt.stage.ChiselStage` es la encargada de las instrucciones para
    }
 ```
 
-La sintaxis `getVerilogString, permite imprimir en pantalla, el código Verilog generado; y `emitVerilog(new myXOR(), Array("--target-dir", "generated"))`, sintetiza el archivo y con `Array`, permite configurar en que directorio se almacenará el archivo generado.
+La sintaxis `getVerilogString`, permite imprimir en pantalla, el código Verilog generado; y `emitVerilog(new myXOR(), Array("--target-dir", "generated"))`, sintetiza el archivo y con `Array`, permite configurar en que directorio se almacenará el archivo generado.
 
 Para generar el hardware, se puede hacer mediante la instrucción `sbt run`, que ejecutará todos los proyectos disponibles. Si deseo, solo ejecutar el proyecto actual, o sea myXOR, puedo hacerlo mediante `sbt 'runMain intro.Main'`, o ejecutar el Makefile que he diseñado, `make run_myXOR`.
 
