@@ -97,9 +97,9 @@ class myXOR extends Module {
 
 ```
 
-Recordemos que un `package`, para agrupar clases relacionadas. Las librerías `chisel3._`y `import circt.stage.ChiselStage` se usan para llamar a la librería de Chisel, y generar el hardware (Verilog).
+Recordemos que un `package`, para agrupar clases relacionadas. Las librerías `chisel3._`y `import circt.stage.ChiselStage` se usan para llamar a la librería de Chisel, y generar el hardware (Verilog) respectivamente.
 
-Como toda clase, `class myXOR` define las características y comportamiento de la entidad.
+Como toda clase, `class myXOR` define las características y comportamiento de la entidad. La variable io (inmutable), se define como la entidad, donde se describen las entradas tipo Bool, ya que solo tienen dos posibles valores. En este caso `X` y `Y`; y la salida `result`. 
 
 ## Simulación
 
