@@ -124,7 +124,7 @@ Para depuración y pruebas (simulación), Chisel tiene el paquete `chiseltest` q
    dut.io.result.expect(0.B)  // 0 ^ 0
    println("Result is: " + dut.io.result.peekBoolean())
    dut.clock.step()
-``
+```
 
 
 
