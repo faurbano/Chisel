@@ -126,12 +126,16 @@ Para depuración y pruebas (simulación), Chisel tiene el paquete `chiseltest` q
    dut.clock.step()
 ```
 
-Se pueden establecer valor en los puertos de entrada (`X` y `Y`), a través de `poke` que lo toma como tipo Chisel. En este caso, se usan valores tipo Booleanos (B), toma a 0 como `False`; y a 1 como `True`. Los datos de los puertos de salida se pueden leer usando el método `peekBoolean`, o `peekInt`. Como el circuito es combinacional, requiere en la verificación indicar intervalos de tiempo para ir enviando las señales a las entradas y obtener la respuesta, para ello se usa `clock.step`.
+Se pueden establecer valor en los puertos de entrada (`X` y `Y`), a través de `poke` que lo toma como tipo Chisel. En este caso, se usan valores tipo Booleanos (B), toma a 0 como `False`; y a 1 como `True`. Los datos de los puertos de salida se pueden leer usando el método `peekBoolean`, o `peekInt`. Como el circuito es combinacional, requiere en la verificación, indicar intervalos de tiempo para ir enviando las señales a las entradas y obtener la respuesta, para ello se usa `clock.step`.
 
 Para ejecutar la simulación se puede hacer mediante, uno de los siguientes métodos:
 
 1. `sbt test`. Ejecuta todas las simulaciones disponibles.
 2. `sbt "'testOnly intro.myXORTest"`. Ejecuta únicamente la clase myXORTest.
+
+![Flujo de Trabajo de Chisel](https://github.com/faurbano/Chisel/blob/main/images/chisel_flow.png)
+
+Figura 2. Flujo de Trabajo de Chisel.
 
 
 ## Simulación
