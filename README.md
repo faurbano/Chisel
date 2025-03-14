@@ -133,10 +133,6 @@ Para ejecutar la simulación se puede hacer mediante, uno de los siguientes mét
 1. `sbt test`. Ejecuta todas las simulaciones disponibles.
 2. `sbt "'testOnly intro.myXORTest"`. Ejecuta únicamente la clase myXORTest.
 
-![Flujo de Trabajo de Chisel](https://github.com/faurbano/Chisel/blob/main/images/chisel_flow.png)
-
-Figura 2. Flujo de Trabajo de Chisel.
-
 
 ## Simulación
 
@@ -146,6 +142,12 @@ Para realizar simulaciones de los circuitos generados, se puede usar GTKWave, pa
    sudo apt-get update
    sudo apt-get -y install gtkwave
 ```
+
+## Flujo de Trabajo de Chisel
+
+![Flujo de Trabajo de Chisel](https://github.com/faurbano/Chisel/blob/main/images/chisel_flow.png)
+
+Figura 2. Flujo de Trabajo de Chisel.
 
 
 Referencias
