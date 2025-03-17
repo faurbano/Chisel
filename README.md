@@ -152,7 +152,7 @@ Figura 2. Simulación de myXOR en GTKWave.
 
 ## Flujo de Trabajo de Chisel
 
-Como se mencionó anteriormente, Chisel es una libreria de Scala y Scala se ejecuta en una máquina virtual de Java (JVM). En versiones anteriores usaba FIRRTL, actualmente se usa CIRCT (* Circuit Intermediate Representations (IR) Compilers and Tools *) que se encarga básicamente de traducir el código a hardware (verilog). Para simulación y depuración, hace uso de Verilator y ScalaTest, donde se verifican los diseños y se generar los archivos de onda para simulación.
+Como se mencionó anteriormente, Chisel es una librería de Scala; y Scala se ejecuta en una máquina virtual de Java (JVM). En versiones anteriores se usaba FIRRTL, actualmente se usa CIRCT (*Circuit Intermediate Representations (IR) Compilers and Tools*) que se encarga básicamente de traducir el código a hardware (verilog). Para simulación y depuración, hace uso de Verilator y ScalaTest, donde se verifican los diseños y se generar los archivos de onda para simulación.
 
 ![Flujo de Trabajo de Chisel](https://github.com/faurbano/Chisel/blob/main/images/chisel_flow.png)
 
