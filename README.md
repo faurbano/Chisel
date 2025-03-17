@@ -159,7 +159,7 @@ Como se mencionó anteriormente, Chisel es una librería de Scala; y Scala se ej
 Figura 3. Flujo de Trabajo de Chisel.
 
 
-Referencias
+### Referencias
 
 1. [Sitio Oficial Chisel](https://www.chisel-lang.org).
 2. [CIRCT project](https://github.com/llvm/circt).
