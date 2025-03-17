@@ -105,9 +105,9 @@ La librería `circt.stage.ChiselStage` es la encargada de las instrucciones para
 
 ```Scala
    object Main extends App {
-   println(getVerilogString(new myXOR()))
-   println("Hardware generated")
-   emitVerilog(new myXOR(), Array("--target-dir", "generated"))
+     println(getVerilogString(new myXOR()))
+     println("Hardware generated")
+     emitVerilog(new myXOR(), Array("--target-dir", "generated"))
    }
 ```
 
@@ -143,7 +143,7 @@ Para visualizar las simulaciones de los circuitos generados, se puede usar GTKWa
    sudo apt-get -y install gtkwave
 ```
 
-La simulación de Chisel puede exportarse en un archivo en formato VCD (IEEE 1364-1995), que contiene toda la información de la simulación en formas de onda (Waveform), ideal para hacer depuración. Para generar el archivo, se puede adicionar al comando de simulación, `sbt 'testOnly intro.myXORTest -- -DwriteVcd=1`; y el archivo se exporta al directorio `test_run_dir/myXOR_should_pass/`. Una vez ya se tiene listo el archivo, se procede a abrirlo con GTKWave ejecutando el comando, `gtkwave test_run_dir/myXOR_should_pass/myXOR.vcd`.
+La simulación de Chisel puede exportarse en un archivo en formato VCD (IEEE 1364-1995), que contiene toda la información de la simulación en formas de onda (Waveform), ideal para hacer depuración. Para generar el archivo, se puede adicionar al comando de simulación, `sbt 'testOnly intro.myXORTest -- -DwriteVcd=1`. El archivo se exporta al directorio `test_run_dir/myXOR_should_pass/`. Una vez ya se tiene listo el archivo, se procede a abrirlo con GTKWave ejecutando el comando, `gtkwave test_run_dir/myXOR_should_pass/myXOR.vcd`.
 
 ![Simulación de myXOR en GTKWave](https://github.com/faurbano/Chisel/blob/main/images/myXOR_gtkwave.png)
 
@@ -152,12 +152,14 @@ Figura 2. Simulación de myXOR en GTKWave.
 
 ## Flujo de Trabajo de Chisel
 
+Como se mencionó anteriormente, Chisel es una libreria de Scala y Scala se ejecuta en una máquina virtual de Java (JVM). En versiones anteriores usaba FIRRTL, actualmente se usa CIRCT (* Circuit Intermediate Representations (IR) Compilers and Tools *) que se encarga básicamente de traducir el código a hardware (verilog). Para simulación y depuración, hace uso de Verilator y ScalaTest, donde se verifican los diseños y se generar los archivos de onda para simulación.
+
 ![Flujo de Trabajo de Chisel](https://github.com/faurbano/Chisel/blob/main/images/chisel_flow.png)
 
-Figura 2. Flujo de Trabajo de Chisel.
+Figura 3. Flujo de Trabajo de Chisel.
 
 
 Referencias
 
-[1]: https://www.chisel-lang.org "Sitio Oficial"
+1. [Sitio Oficial Chisel](https://www.chisel-lang.org).
 
