@@ -143,7 +143,7 @@ Para visualizar las simulaciones de los circuitos generados, se puede usar GTKWa
    sudo apt-get -y install gtkwave
 ```
 
-La simulación de Chisel puede exportarse en un archivo en formato VCD (IEEE 1364-1995), que contiene toda la información de la simulación en formas de onda (Waveform), ideal para hacer depuración. Para generar el archivo, se puede adicionar al comando de simulación, `sbt 'testOnly intro.myXORTest -- -DwriteVcd=1`. El archivo se exporta al directorio `test_run_dir/myXOR_should_pass/`. Una vez ya se tiene listo el archivo, se procede a abrirlo con GTKWave ejecutando el comando, `gtkwave test_run_dir/myXOR_should_pass/myXOR.vcd`.
+La simulación de Chisel puede exportarse en un archivo en formato VCD (IEEE 1364-1995), que contiene toda la información de la simulación en formas de onda (Waveform), ideal para hacer depuración. Para generar el archivo, se puede adicionar al comando de simulación, `sbt 'testOnly intro.myXORTest -- -DwriteVcd=1'`. El archivo se exporta al directorio `test_run_dir/myXOR_should_pass/`. Una vez ya se tiene listo el archivo, se procede a abrirlo con GTKWave ejecutando el comando, `gtkwave test_run_dir/myXOR_should_pass/myXOR.vcd`.
 
 ![Simulación de myXOR en GTKWave](https://github.com/faurbano/Chisel/blob/main/images/myXOR_gtkwave.png)
 
