@@ -162,4 +162,6 @@ Figura 3. Flujo de Trabajo de Chisel.
 Referencias
 
 1. [Sitio Oficial Chisel](https://www.chisel-lang.org).
+2. [CIRCT project] (https://github.com/llvm/circt).
+3. [Digital Design with Chisel] (https://www.imm.dtu.dk/~masca/chisel-book.html)
 
